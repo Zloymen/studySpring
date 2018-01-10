@@ -21,6 +21,7 @@
     <org.hibernate.validator.version>5.3.4.Final</org.hibernate.validator.version>
     <apache.cxf.version>3.1.11</apache.cxf.version>
     <handlebars.version>4.0.6</handlebars.version>
+    <force.version>42.0.0</force.version>
   </properties>
 
   <dependencies>
@@ -42,6 +43,29 @@
       <artifactId>spring-context</artifactId>
       <version>${spring.version}</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.force.api/force-wsc -->
+    <dependency>
+      <groupId>com.force.api</groupId>
+      <artifactId>force-wsc</artifactId>
+      <version>${force.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.force.api/force-partner-api -->
+    <dependency>
+      <groupId>com.force.api</groupId>
+      <artifactId>force-partner-api</artifactId>
+      <version>${force.version}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.force.api/force-metadata-api -->
+    <dependency>
+      <groupId>com.force.api</groupId>
+      <artifactId>force-metadata-api</artifactId>
+      <version>${force.version}</version>
+    </dependency>
+
+
 
   </dependencies>
 
