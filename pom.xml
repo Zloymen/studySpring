@@ -65,6 +65,11 @@
       <version>${force.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.frejo</groupId>
+      <artifactId>force-rest-api</artifactId>
+      <version>0.0.40</version>
+    </dependency>
 
 
   </dependencies>

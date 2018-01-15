@@ -1,4 +1,4 @@
-package test.spring;
+package test.force;
 
 import com.sforce.soap.enterprise.*;
 import com.sforce.soap.enterprise.Error;
@@ -10,8 +10,8 @@ import com.sforce.ws.ConnectorConfig;
 
 public class ForceRun {
 
-    static final String USERNAME = "konstantin.girko@perfekt.com.ua";
-    static final String PASSWORD = "qwe123asdjDlhSfamDhPO4PnJ8WjNxYh4k";
+    public static final String USERNAME = "konstantin.girko@perfekt.com.ua";
+    public static final String PASSWORD = "qwe123asdjDlhSfamDhPO4PnJ8WjNxYh4k";
     static EnterpriseConnection connection;
 
     public static void main(String[] args) {
