@@ -1,18 +1,12 @@
 package test.spring;
 
-import com.force.api.DescribeSObject;
 import org.springframework.context.support.GenericXmlApplicationContext;
 import test.spring.entity.Case;
-import test.spring.entity.User;
 import test.spring.service.CaseService;
 import test.spring.service.ContactService;
 import test.spring.service.UserService;
 
-/**
- *
- * -Dspring.profiles.active="develop, default"
- */
-public class App{
+public class ForceRestRun {
     public static void main( String[] args ){
         GenericXmlApplicationContext ctx = new GenericXmlApplicationContext();
         ctx.getEnvironment().setActiveProfiles("default");

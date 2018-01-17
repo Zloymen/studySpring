@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface CaseService extends IForseService{
     List<Case> getAll();
+    void add(Case newCase);
 
 }

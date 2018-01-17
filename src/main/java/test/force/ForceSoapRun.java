@@ -8,7 +8,7 @@ import com.sforce.soap.enterprise.sobject.Contact;
 import com.sforce.ws.ConnectionException;
 import com.sforce.ws.ConnectorConfig;
 
-public class ForceRun {
+public class ForceSoapRun {
 
     public static final String USERNAME = "konstantin.girko@perfekt.com.ua";
     public static final String PASSWORD = "qwe123asdjDlhSfamDhPO4PnJ8WjNxYh4k";

@@ -13,6 +13,10 @@ public class CaseServiceImpl extends ForseService implements CaseService{
                 " ContactPhone, ContactMobile, ContactEmail, ContactFax, LastViewedDate, LastReferencedDate FROM Case", Case.class).getRecords();
     }
 
+    public void add(Case newCase){
+        create(newCase);
+    }
+
 
     String getType() {
         return "Case";

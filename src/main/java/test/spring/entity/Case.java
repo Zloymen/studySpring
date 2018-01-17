@@ -50,6 +50,7 @@ public class Case {
     @JsonProperty(value="Subject")
     private String subject;
 
+    //toEnum
     @JsonProperty(value="Priority")
     private String priority;
 
