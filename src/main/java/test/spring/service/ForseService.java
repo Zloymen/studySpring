@@ -6,10 +6,13 @@ import com.force.api.ForceApi;
 import test.force.ForceSoapRun;
 
 public abstract class ForseService {
+
+    private ApiConfig config = new ApiConfig()
+            .setUsername(ForceSoapRun.USERNAME)
+            .setPassword(ForceSoapRun.PASSWORD);
+
     ForceApi getForceApi() {
-        return new ForceApi(new ApiConfig()
-                .setUsername(ForceSoapRun.USERNAME)
-                .setPassword(ForceSoapRun.PASSWORD));
+        return new ForceApi(config);
     }
 
     abstract String getType();
