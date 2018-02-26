@@ -44,6 +44,12 @@
       <version>${spring.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.fasterxml.jackson.dataformat</groupId>
+      <artifactId>jackson-dataformat-xml</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+
     <!-- https://mvnrepository.com/artifact/com.force.api/force-wsc -->
     <dependency>
       <groupId>com.force.api</groupId>
@@ -71,6 +77,12 @@
       <version>0.0.40</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.16.20</version>
+      <scope>provided</scope>
+    </dependency>
 
   </dependencies>
 
